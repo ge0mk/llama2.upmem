@@ -1,0 +1,12 @@
+#define DIM 288
+#define HIDDEN_DIM 768
+#define KV_DIM 288
+#define KV_MUL 1
+#define N_LAYERS 6
+#define N_HEADS 6
+#define N_KV_HEADS 6
+#define HEAD_SIZE 48
+#define VOCAB_SIZE 32000
+#define SEQ_LEN 256
+#define QKV_TASKLETS 8
+#define CLS_ROWS_PER_THREAD 100
